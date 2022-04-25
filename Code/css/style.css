@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+/********** Corps **********/
+body
+{
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+
+header
+{
+    padding: 0px 30px;
+}
+
+section
+{
+    padding: 0px 30px;
+}
+
+footer
+{
+    padding-top: 30px;
+}
+
+
+
+
+/********** Commun **********/
+h1
+{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+h2
+{
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+p
+{
+    font-size: 12px;
+}
+
+span
+{
+    font-weight: bolder;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: black;
+    text-decoration: none;
+}
+
+.texte_line
+{
+    margin: 10px 20px;
+}
+
+
+/********** section 1 **********/
+
+#header_container
+{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+#shortcuts_container
+{
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.shortcuts_line
+{
+    padding-top: 50px;
+    border-top: 3px solid white;
+}
+
+.shortcuts_line:hover
+{
+    border-top: #0065FC 3px solid;
+}
+
+
+#logo_line
+{
+    height: 50px;
+}
+
+/********** section 2 **********/
+
+#search_body
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.center
+{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+
+.location_container
+{
+    display: flex;
+    font-weight: bolder;
+    border: 1px solid #F2F2F2;
+    width: 400px;
+    border-radius: 15px;
+}
+
+.location_line
+{
+    background-color: #F2F2F2;
+    width: 50px;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 20px;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.search_line
+{
+    border: none;
+    width: 250px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.bouton_line
+{
+    background-color: #0065FC;
+    border: none;
+    width: 100px;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    
+}
+
+.filter_body
+{    
+    display: flex;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+.filter_container
+{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.filter_line
+{
+    border: 2px solid #F2F2F2 ;
+    border-radius: 30px;
+    display: flex;
+    margin: 10px;
+}
+
+.filter_icone
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #DEEBFF;
+}
+
+.icone_line
+{
+    color: #0065FC;
+    padding: 15px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_logo
+{
+    color: #0065FC;
+    padding: 5px 10px 5px 10px;
+    font-size: 15px;
+    border: 1px solid #F2F2F2;
+    border-radius: 20px;
+}
+
+.info_line
+{
+    padding-left: 5px;
+}
+
+/********** section 3 **********/
+
+/***** Hebergement *****/
+
+.proposal_body
+{
+    display: flex;
+    justify-content: space-between;
+}
+.lodging_container
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 65%;
+    margin-right: 10px;
+}
+
+#lodging
+{
+    padding: 20px 30px;
+}
+
+.more_line
+{
+    padding: 20px 30px;
+}
+
+.miniature_container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.miniature_block
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 20px;
+    width: calc(33.33333% - 30px);
+    margin: 1%;
+    box-shadow: 0px 1px 3px 0px;
+}
+
+.image_lodging_block
+{
+    display: flex;
+    justify-content: center;
+    margin: 2%;
+}
+
+.image_lodging_line
+{
+    width: 95%;
+    max-height: 100px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.star_block
+{
+    display: flex;
+    margin: 10px 20px;
+}
+.fa-star
+{
+    color: #0065FC;
+    font-size: 15px;
+}
+
+/***** populaire *****/
+
+.popular_container
+{
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    width: 35%;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popular_block
+{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px 30px;
+}
+
+.fa-chart-line
+{
+    font-size: 18px;
+}
+
+.popular_lodging_container
+{
+    background-color: white;
+    border-radius: 20px;
+    height: calc(33.33333% - 30px);
+    width: 90%;
+    margin: 10px 0px;
+    display: flex;    
+    box-shadow: 0px 1px 3px 0px;
+}
+
+.popular_lodging_block
+{
+    display: flex;
+    border-radius: 20px ;
+}
+
+.image_popular_block 
+{   
+    width: 33%;
+    margin: 2%;
+}
+
+.image_popular_line
+{
+    height: 100%;
+    width: 100%; 
+    object-fit: cover;
+    border-radius: 20px 0px 0px 20px;
+}
+
+
+.txt 
+{
+    width: 67%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+/********** section 4 **********/
+
+#activity
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.activity_container
+{
+    display: flex;
+}
+
+.activity_structure
+{
+    width: 25%;
+    max-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.alone_activity_block
+{
+    height: 100%;
+    box-shadow: 0px 1px 3px 0px;
+    border-radius: 20px;
+}
+
+.activity_block
+{
+    height: 55%;
+    box-shadow: 0px 1px 3px 0px;
+    border-radius: 20px;
+    margin: 0% 5%;
+}
+
+.activity_block_2
+{
+    height: 35%;
+    box-shadow: 0px 1px 3px 0px;
+    border-radius: 20px;
+    
+    margin: 0% 5%;
+}
+
+.alone_activity_article
+{
+    height: 85%;
+}
+
+.duo_activity_article_1
+{
+    height: 85%;
+}
+
+.duo_activity_article_2
+{
+    height: 85%;
+}
+
+.activity_image_line
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+/********** Footer **********/
+
+.footer_container
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F2F2F2;
+}
+
+.footer_block
+{
+    padding: 20px 30px;
+}
+
+.footer_texte_line
+{
+    font-size: 12px;
+    margin: 10px 0px;
+}
