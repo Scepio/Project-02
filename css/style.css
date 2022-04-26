@@ -14,7 +14,7 @@ header
 
 section
 {
-    padding: 0px 30px;
+    padding: 10px 30px;
 }
 
 footer
@@ -36,6 +36,8 @@ h2
 {
     font-weight: bolder;
     font-size: 15px;
+    height: 50px;
+    line-height: 25px;
 }
 
 p
@@ -284,6 +286,13 @@ a:visited
     color: #0065FC;
     font-size: 15px;
 }
+.grey-star
+{
+    color: grey;
+    font-size: 15px; 
+}
+    
+
 
 /***** populaire *****/
 
@@ -315,7 +324,7 @@ a:visited
 {
     background-color: white;
     border-radius: 20px;
-    height: calc(33.33333% - 30px);
+    height: 150px;
     width: 90%;
     margin: 10px 0px;
     display: flex;    
@@ -331,7 +340,7 @@ a:visited
 .image_popular_block 
 {   
     width: 33%;
-    margin: 2%;
+    margin: 5px;
 }
 
 .image_popular_line
@@ -354,7 +363,7 @@ a:visited
 
 /********** section 4 **********/
 
-#activity
+.activity
 {
     display: flex;
     flex-direction: column;
@@ -386,31 +395,30 @@ a:visited
     height: 55%;
     box-shadow: 0px 1px 3px 0px;
     border-radius: 20px;
-    margin: 0% 5%;
+    margin: 0px 10px;
 }
 
 .activity_block_2
 {
     height: 35%;
     box-shadow: 0px 1px 3px 0px;
-    border-radius: 20px;
-    
-    margin: 0% 5%;
+    border-radius: 20px;    
+    margin: 0px 10px;
 }
 
 .alone_activity_article
 {
-    height: 85%;
+    height: calc(100% - 50px);
 }
 
 .duo_activity_article_1
 {
-    height: 85%;
+    height: calc(100% - 50px);
 }
 
 .duo_activity_article_2
 {
-    height: 85%;
+    height: calc(100% - 50px);
 }
 
 .activity_image_line
@@ -427,12 +435,12 @@ a:visited
 .footer_container
 {
     display: flex;
-    justify-content: space-between;
     background-color: #F2F2F2;
 }
 
 .footer_block
 {
+    flex: 1;
     padding: 20px 30px;
 }
 
