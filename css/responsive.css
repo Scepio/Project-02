@@ -1,0 +1,158 @@
+
+
+
+@media screen and ( max-width: 768px)
+{
+    /********** Corps **********/
+
+     header
+    {
+        padding: 50px 30px;
+    }
+
+    .proposal_body, .activity
+    {
+        padding: 0px;
+    }    
+    /********** Commun **********/
+
+    h2
+    {
+        height: 30px;
+    }
+    
+
+    .texte_line
+    {
+        margin: 0px 20px;
+    }
+
+    /********** section 1 **********/
+    
+    .header_container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;        
+    }
+
+    .shortcuts_container
+    {
+        display: flex;
+        flex: 1;
+        width: 100%;
+    }
+
+    .shortcuts_line
+    {   
+        border-top: none;
+        padding-bottom: 10px;
+        border-bottom: 3px solid #F2F2F2;
+    }
+
+    .shortcuts_line:hover
+    {
+        border-top: none;
+        border-bottom: #0065FC 3px solid;
+    }
+
+    /********** section 2 **********/
+
+    /********** section 3 **********/
+
+    .proposal_body
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /***** populaire *****/
+
+    .popular_container
+    {
+        border-radius: 0px;
+        width: 100%;        
+        margin-left: 0px;
+    }
+
+    .txt 
+    {
+        width: 67%;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+    }
+    
+
+    /***** Hebergement *****/
+
+    .lodging_container
+    {
+        background-color: white;
+        border-radius: 0px;
+        width: 100%;        
+        margin-right: 0px;
+    }
+
+
+    .miniature_block
+    {
+        width: 90%;
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .image_lodging_line
+    {
+        max-height: 120px;
+    }
+
+    .star_block
+    {
+        margin: 5px 20px;
+    }
+
+
+    /********** section 4 **********/
+
+    .activity_container
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .activity_structure
+    {
+        width: 90%;
+        padding: 10px;
+        justify-content: center;
+
+    }
+
+    .alone_activity_block
+    {
+        height: 200px;
+    }
+    
+    .activity_block
+    {
+        height: 200px;
+        margin: 5px 0px;
+    }
+
+    .activity_block_2
+    {
+        height: 200px;
+        margin: 5px 0px;
+    }
+
+    /********** Footer **********/
+
+    .footer_container
+    {
+        flex-direction: column;
+    }
+
+}

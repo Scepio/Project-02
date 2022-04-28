@@ -70,14 +70,14 @@ a:visited
 
 /********** section 1 **********/
 
-#header_container
+.header_container
 {
     display: flex;
     justify-content: space-between;
     height: 80px;
 }
 
-#shortcuts_container
+.shortcuts_container
 {
     width: 200px;
     display: flex;
@@ -86,9 +86,12 @@ a:visited
 }
 
 .shortcuts_line
-{
+{   
+    display: flex;
+    justify-content: center;
+    width: 100%;
     padding-top: 50px;
-    border-top: 3px solid white;
+    border-top: 3px solid #F2F2F2;
 }
 
 .shortcuts_line:hover
@@ -97,14 +100,14 @@ a:visited
 }
 
 
-#logo_line
+.logo_line
 {
     height: 50px;
 }
 
 /********** section 2 **********/
 
-#search_body
+.search_body
 {
     display: flex;
     flex-direction: column;
@@ -219,13 +222,14 @@ a:visited
 
 /********** section 3 **********/
 
-/***** Hebergement *****/
-
 .proposal_body
 {
     display: flex;
     justify-content: space-between;
 }
+
+/***** Hebergement *****/
+
 .lodging_container
 {
     display: flex;
@@ -236,7 +240,7 @@ a:visited
     margin-right: 10px;
 }
 
-#lodging
+.lodging
 {
     padding: 20px 30px;
 }
@@ -273,7 +277,7 @@ a:visited
 
 .image_lodging_line
 {
-    width: 95%;
+    width: 100%;
     max-height: 100px;
     object-fit: cover;
     border-radius: 20px 20px 0px 0px;
