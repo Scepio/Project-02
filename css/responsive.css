@@ -59,6 +59,16 @@
 
     /********** section 2 **********/
 
+    .location_container
+    {
+        width: 70%;
+    }
+    .search_line
+    {
+        width: 100%;
+    }
+    
+
     /********** section 3 **********/
 
     .proposal_body
