@@ -1,6 +1,3 @@
-
-
-
 @media screen and ( max-width: 768px)
 {
     /********** Corps **********/
@@ -18,13 +15,13 @@
 
     h2
     {
-        height: 30px;
+        line-height: 25px;
     }
     
 
     .texte_line
     {
-        margin: 0px 20px;
+        margin: 0px 8px;
     }
 
     /********** section 1 **********/
@@ -98,7 +95,7 @@
         margin-left: 0px;
     }
 
-    .txt 
+    .description_popular_block 
     {
         width: 67%;
         display: flex;
@@ -133,7 +130,7 @@
 
     .star_block
     {
-        margin: 5px 20px;
+        margin: 5px 8px;
     }
 
 

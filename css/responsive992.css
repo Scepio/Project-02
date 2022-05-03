@@ -1,0 +1,94 @@
+
+@media screen and ( max-width: 992px)
+{
+    /********** Corps **********/
+  
+    h2
+    {
+        height: 30px;
+        line-height: 15px;
+    }
+
+    /********** Commun **********/
+
+    /********** section 1 **********/
+    
+    .header_container
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 50px 0px;       
+    }
+
+    .shortcuts_container
+    {
+        display: flex;
+        flex: 1;
+        width: 100%;
+    }
+
+    .shortcuts_line
+    {   
+        border-top: none;
+        padding-bottom: 10px;
+        border-bottom: 3px solid #F2F2F2;
+    }
+
+    .shortcuts_line:hover
+    {
+        border-top: none;
+        border-bottom: #0065FC 3px solid;
+    }
+
+    /********** section 2 **********/
+
+    .location_container
+    {
+        width: 900px;
+    }
+    
+    /********** section 3 **********/
+
+    .proposal_body
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    /***** populaire *****/
+
+    .popular_container
+    {
+        border-radius: 0px;
+        width: 100%;        
+        margin-left: 0px;
+    }
+
+    .description_popular_block 
+    {
+        width: 300px;
+    }
+
+    /***** Hebergement *****/
+
+    .lodging_container
+    {
+        background-color: white;
+        border-radius: 0px;
+        width: 100%;        
+        margin-right: 0px;
+    }
+
+    .image_lodging_line
+    {
+        max-height: 120px;
+    }
+
+    .star_block
+    {
+        margin: 5px 8px;
+    }
+    
+}
