@@ -91,4 +91,44 @@
         margin: 5px 8px;
     }
     
+    /********** section 4 **********/
+
+    .activity_container
+    {
+       flex-direction: column;
+    }
+
+    .activity_structure
+    {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .alone_activity_block
+    {
+        height: 100%;
+        width: 100%;
+    }
+
+    .activity_block
+    {
+        height: 100%;
+        width: 49%;
+        margin: 0px;
+    }  
+
+    .activity_block_2
+    {
+        height: 100%;
+        width: 49%;
+        margin: 0px;
+    }
+
+    .activity_article
+    {
+        height: 150px;
+    }
+
+    
 }

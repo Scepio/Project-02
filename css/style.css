@@ -432,20 +432,11 @@ a:visited
     margin: 0px 10px;
 }
 
-.alone_activity_article
+.activity_article
 {
     height: calc(100% - 50px);
 }
 
-.duo_activity_article_1
-{
-    height: calc(100% - 50px);
-}
-
-.duo_activity_article_2
-{
-    height: calc(100% - 50px);
-}
 
 .activity_image_line
 {
