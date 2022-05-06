@@ -59,7 +59,12 @@
 
     .location_container
     {
-        width: 100%;
+        width: 300px ;
+    }
+    
+    .location_line
+    {
+        width: 70px;
     }
     
     .bouton_line
@@ -70,13 +75,7 @@
     .fa-magnifying-glass
     {
         visibility: visible;
-    }
-
-    .filter_container
-    {
-        width: 100%;
-    }
-    
+    }    
 
     /********** section 3 **********/
 
