@@ -3,13 +3,13 @@
 {
     /********** Corps **********/
   
+    /********** Commun **********/
+    
     h2
     {
         height: 30px;
         line-height: 15px;
     }
-
-    /********** Commun **********/
 
     /********** section 1 **********/
     
@@ -81,6 +81,17 @@
         margin-right: 0px;
     }
 
+    .miniature_container
+    {
+        justify-content: space-between;
+    }
+
+    .miniature_block
+    {
+        width: 49%;
+        margin: 8px 0px;
+    }
+
     .image_lodging_line
     {
         max-height: 120px;
@@ -103,6 +114,8 @@
         flex-direction: row;
         justify-content: space-between;
         width: 100%;
+        height: 200px;
+        margin: 8px 0px;
     }
 
     .alone_activity_block
@@ -127,7 +140,7 @@
 
     .activity_article
     {
-        height: 150px;
+        height: calc(100% - 50px);
     }
 
     

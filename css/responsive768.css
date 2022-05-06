@@ -7,9 +7,9 @@
         padding:50px 30px;
     }
 
-    .proposal_body, .activity
+    .proposal_body
     {
-        padding: 0px;
+        padding: 20px;
     }    
     /********** Commun **********/
 
@@ -139,33 +139,8 @@
     .activity_container
     {
         flex-direction: column;
-        align-items: center;
     }
-
-    .activity_structure
-    {
-        width: 90%;
-        padding: 10px;
-        justify-content: center;
-
-    }
-
-    .alone_activity_block
-    {
-        height: 200px;
-    }
-    
-    .activity_block
-    {
-        height: 200px;
-        margin: 5px 0px;
-    }
-
-    .activity_block_2
-    {
-        height: 200px;
-        margin: 5px 0px;
-    }
+   
 
     /********** Footer **********/
 
