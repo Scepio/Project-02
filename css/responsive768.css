@@ -10,7 +10,12 @@
     .proposal_body
     {
         padding: 20px;
-    }    
+    }
+    
+    .activity 
+    {
+        padding: 20px;
+    }
     /********** Commun **********/
 
     h2
@@ -116,7 +121,7 @@
 
     .miniature_block
     {
-        width: 90%;
+        width: 100%;
         height: 200px;
         display: flex;
         justify-content: space-between;
@@ -135,11 +140,33 @@
 
     /********** section 4 **********/
 
-    .activity_container
+
+    .activity_structure
     {
-        flex-direction: column;
+        flex-wrap: wrap;
+        height: 200px;
+        margin: 8px 0px;
+        flex: 1;
     }
-   
+
+    .alone_activity_block
+    {
+        height: 200px;
+    }
+
+    .activity_block
+    {
+        height: 200px;
+        width: 100%;
+        margin-bottom: 8px;
+    }  
+
+    .activity_block_2
+    {
+        height: 200px;
+        width: 100%;
+        margin-top: 8px;
+    }
 
     /********** Footer **********/
 
