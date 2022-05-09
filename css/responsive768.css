@@ -168,6 +168,11 @@
         margin-top: 8px;
     }
 
+    .activity_structure:nth-child(3)
+    {
+        margin-top: 20px;
+    }
+
     /********** Footer **********/
 
     .footer_container
