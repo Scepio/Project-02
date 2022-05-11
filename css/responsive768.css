@@ -9,7 +9,7 @@
 
     .proposal_body
     {
-        padding: 20px;
+        padding: 0px;
     }
     
     .activity 
@@ -20,7 +20,7 @@
 
     h2
     {
-        line-height: 45px;
+        line-height: 25px;
     }
     
 
@@ -71,16 +71,32 @@
     {
         width: 70px;
     }
+
+    .search_line
+    {
+        width: 200px;
+    }
+
+    .location_block
+    {
+        border-radius: 15px;
+    }
     
     .bouton_line
     {
         visibility: hidden;
         display: none;
     }
-    .fa-magnifying-glass
+
+    .loupe_icon
     {
         visibility: visible;
-    }    
+    } 
+    
+    .filter_container
+    {
+        width: 100%;
+    }
 
     /********** section 3 **********/
 
@@ -114,8 +130,9 @@
     {
         background-color: white;
         border-radius: 0px;
-        width: 100%;        
+        width: 90%;        
         margin-right: 0px;
+        padding: 18px;
     }
 
 
